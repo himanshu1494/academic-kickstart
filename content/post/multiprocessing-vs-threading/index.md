@@ -68,12 +68,21 @@ Threading is game-changing because many scripts related to network/data I/O spen
 Fortunately, threading is included in the standard library:
 
 ```
-
+import threading
+from queue import Queue
+import time
 ```
 
 You can use `target` as the callable object, `args` to pass parameters to the function, and `start` to start the thread.
 
 ```
+def testThread(num):
+    print num
+
+if __name__ == '__main__':
+    for i in range(5):
+        t = threading.Thread(target=testThread, arg=(i,))
+        t.start()
 
 ```
 
@@ -90,7 +99,29 @@ Imagine two functions which both iterate a variable by 1. The lock allows you to
 When using the threading module, this can also happen when you're printing because the text can get jumbled up (and cause data corruption). You can use a print lock to ensure that only one thread can print at a time.
 
 ```
+print_lock = threading.Lock()
 
+def threadTest():
+    # when this exits, the print_lock is released
+    with print_lock:
+        print(worker)
+
+def threader():
+  while True:
+    # get the job from the front of the queue
+    threadTest(q.get())
+    q.task_done()
+
+q = Queue()
+for x in range(5):
+    thread = threading.Thread(target = threader)
+    # this ensures the thread will die when the main thread dies
+    # can set t.daemon to False if you want it to keep running
+    t.daemon = True
+    t.start()
+
+for job in range(10):
+    q.put(job)
 ```
 
 Here, we've got 10 jobs that we want to get done and 5 workers that will work on the job.
@@ -113,23 +144,39 @@ Because of this, the usual problems associated with threading (such as data corr
 ### [Let's Get Started:](https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/#let-s-get-started-)
 
 ```
+import multiprocessing
+def spawn():
+  print('test!')
 
+if __name__ == '__main__':
+  for i in range(5):
+    p = multiprocessing.Process(target=spawn)
+    p.start()
 ```
 
 If you have a shared database, you want to make sure that you're waiting for relevant processes to finish before starting new ones.
 
 ```
-
+for i in range(5):
+  p = multiprocessing.Process(target=spawn)
+  p.start()
+  p.join() # this line allows you to wait for processes
 ```
 
 If you want to pass arguments to your process, you can do that with args
 
 ```
+import multiprocessing
+def spawn(num):
+  print(num)
 
+if __name__ == '__main__':
+  for i in range(25):
+    ## right here
+    p = multiprocessing.Process(target=spawn, args=(i,))
+    p.start()
 ```
 
 Here's a neat example because as you notice, the numbers don't come in the order you'd expect (without the `p.join()`).
-
-
 
 <!--EndFragment-->
