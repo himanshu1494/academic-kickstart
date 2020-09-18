@@ -17,8 +17,11 @@ organizations:
 education:
   courses:
     - course: M.S in Neural Networks and Neural Computers
-      institution: Moscow Institute of Physics and Technology
+      institution: Moscow Institute of Physics and Technology, Moscow , Russia
       year: 2017
+    - course: B.Tech In Electronics and Communication
+      institution: "Lovely professional University, Punjab ,India "
+      year: 2015
 email: himanshurairai560@gmail.com
 superuser: true
 ---
