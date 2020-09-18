@@ -8,7 +8,12 @@ social:
     icon: facebook
 organizations:
   - name: Moscow Institute of Physics and Technology
-    url: mipt.ru
+    url: https://mipt.ru
 email: himanshurairai560@gmail.com
 superuser: true
 ---
+<!--StartFragment-->
+
+I am a doctoral student currently working on Load balancing problem in cloud computers . My goal is to make more fast , reliable ,cost effective and environmental  friendly cloud computing by improving the existing load balancing algorithms . Currently, I am working on combination of several algorithms to make a balance between cost-effectiveness and power consumption and same time try to improve the response time . 
+
+<!--EndFragment-->
