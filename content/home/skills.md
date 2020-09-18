@@ -22,13 +22,13 @@ subtitle = ""
   
 [[feature]]
   icon = "html5"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "HTML5"
   description = "100%"  
   
 [[feature]]
   icon = "js"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Javascript"
   description = "10%"
 
