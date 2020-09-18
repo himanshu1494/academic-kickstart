@@ -11,6 +11,12 @@ social:
   - icon_pack: fab
     link: https://www.facebook.com/Himanshu1492/
     icon: facebook
+  - icon_pack: fab
+    icon: linkedin
+    link: https://www.linkedin.com/in/himanshurai14/
+  - icon_pack: fab
+    link: https://github.com/himanshu1494/
+    icon: github
 organizations:
   - name: Moscow Institute of Physics and Technology
     url: mipt.ru
