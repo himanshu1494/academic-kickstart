@@ -33,3 +33,5 @@ featured: true
 #4.“Security algorithm on Cloud Storage System”, Sanjeev Kumar Ojha, Himanshu Rai, Alexey Nazarov, 2nd IEEE, ICAC3N-20(Accepted) 2020
 
 #4.“Enhanced Modified HEFT Algorithm for Task Scheduling in Cloud Environment”, Sanjeev Kumar Ojha, Himanshu Rai, Alexey Nazarov, 2nd IEEE, ICAC3N-20(Accepted) 2020
+
+---
