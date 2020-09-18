@@ -17,19 +17,19 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R"
+  name = "Python"
   description = "90%"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "html5"
   icon_pack = "fas"
-  name = "Statistics"
+  name = "HTML5"
   description = "100%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "js"
   icon_pack = "fas"
-  name = "Photography"
+  name = "Javascript"
   description = "10%"
 
 # Uncomment to use emoji icons.

@@ -8,7 +8,7 @@ social:
     icon: facebook
 organizations:
   - name: Moscow Institute of Physics and Technology
-    url: mipt.ru
+    url: https://mipt.ru
 email: himanshurairai560@gmail.com
 superuser: true
 ---
