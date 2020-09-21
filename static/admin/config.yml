@@ -134,7 +134,7 @@ collections:
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Authors", name: "authors", widget: "string"}
-      - {label: "Conference Name", name: "subtitle", widget: "string"}
+      - {label: "Conference Name", name: "subtitle", widget: "list"}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
       - {label: "Abstract", name: "abstract", widget: "markdown"}
       - label: "Draft"
@@ -145,10 +145,6 @@ collections:
         name: "featured"
         widget: "boolean"
         default: false
-      - label: "Authors"
-        name: "authors"
-        required: false
-        widget: "list"
       - label: "Tags"
         name: "tags"
         required: false
