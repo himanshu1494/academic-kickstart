@@ -1,8 +1,7 @@
 ---
 title: Statistical compaction of a monitoring cloud cluster resource when
   processing streaming services
-authors: Alexey Nazarov, Artem Sychev, Alireza Nik Aein Koupaei, Sanjeev Kumar
-  Ojha, Himanshu Rai
+authors:  Himanshu Rai
 subtitle:
   - En&T 2019
 doi: "10.1109/EnT47717.2019.9030598"
