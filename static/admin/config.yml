@@ -134,9 +134,8 @@ collections:
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Conference Name", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
-      - {label: "Summary", name: "summary", widget: "markdown"}
+      - {label: "Abstract", name: "abstract", widget: "markdown"}
       - label: "Draft"
         name: "draft"
         widget: "boolean"
