@@ -5,19 +5,38 @@ authors: Alexey Nazarov, Artem Sychev, Alireza Nik Aein Koupaei, Sanjeev Kumar
   Ojha, Himanshu Rai
 subtitle:
   - En&T 2019
-date: 2020-09-21T19:03:34.127Z
-abstract: >-
-  <!--StartFragment-->
+doi: "10.1109/EnT47717.2019.9030598"
+# Publication name and optional abbreviated publication name.
+publication: In * En&T 2019*
+publication_short: In *EnT*
 
-
-  The scientific problem of developing a method of statistical compaction of the necessary cloud resource in the processing of streaming services in the interests of monitoring systems for various purposes is formulated and solved. The method allows you to determine the number of virtual connections for different services that can be processed in a cloud cluster with a given quality, taking into account, on the one hand, the flow of requests from sources of different services for the provision of virtual connections, and, on the other hand, the needs of these same services transfer rates, taking into Analytical relations for calculation of necessary productivity of a cloud cluster at the set value of probability of loss of a micropackage of streams of DStream are received.
-
-
-  <!--EndFragment-->
-draft: false
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["1"]
 featured: false
 tags:
   - conference paper
 categories:
   - Conference Papers
+inks:
+- name: Custom Link
+  url: https://ieeexplore.ieee.org/document/9030598
+url_code: '#'
+url_dataset: '#'
+url_poster: '#'
+url_project: ''
+url_slides: ''
+url_source: '#'
+url_video: '#'
 ---
+{{% alert note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /alert %}}
+
+{{% alert note %}}
+Click the *Slides* button above to demo Academic's Markdown slides feature.
+{{% /alert %}}
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
