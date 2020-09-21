@@ -133,6 +133,7 @@ collections:
     create: true  # Allow users to create new documents in this collection
     fields:  # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Authors", name: "authors", widget: "string"}
       - {label: "Conference Name", name: "subtitle", widget: "string"}
       - {label: "Publish this page on", name: "date", widget: "datetime"}
       - {label: "Abstract", name: "abstract", widget: "markdown"}
